@@ -48,12 +48,8 @@
 }
 
 #main-image {
-  border: 2px solid lighten($c_green, 30) !important;
+  border: 0px !important;
   overflow: hidden;
-
-  &, img {
-    @include border-radius(165px);
-  }
 
   img {
     padding: 46px 37px 46px 38px;
@@ -78,10 +74,6 @@
       &:hover {
         @include opacity(1);
         border-color: $c_green;
-      }
-
-      &, img {
-        @include border-radius(165px);
       }
 
       img {
